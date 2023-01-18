@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="form">
+        
+      <h2>Generate your password!</h2>
+
+      <div class="option">
+        <div id="result"></div>
+      </div>
+
+      <div class="option">
+        <label>Password length</label>
+        <input type="number" id="length" min="4" max="25" value="16" />
+      </div>
+
+      <div class="option">
+        <label>lowercase letters</label>
+        <input type="checkbox" id="lowercase" checked />
+      </div>
+
+      <div class="option">
+        <label>uppercase letters</label>
+        <input type="checkbox" id="uppercase" checked />
+      </div>
+
+      <div class="option">
+        <label>symbols</label>
+        <input type="checkbox" id="symbols" checked />
+      </div>
+
+      <div class="option">
+        <label>numbers</label>
+        <input type="checkbox" id="numbers" checked />
+      </div>
+
+      <button id="generate" onclick="generate()">Get Password</button>
+
+    </div>
+
+    <script src="generator.js"></script>
+	<footer>
+		<H3>Challenge 03 for BCS</H3>
+	</footer>
+  </body>
+</html>
