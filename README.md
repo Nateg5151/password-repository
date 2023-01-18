@@ -1,1 +1,1 @@
-# password-repository
+# password-directory
